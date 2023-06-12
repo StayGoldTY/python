@@ -11,7 +11,7 @@ import glob
 
 
 def main():
-  os.environ["OPENAI_API_KEY"] = "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"
+  os.environ["OPENAI_API_KEY"] = "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"
   os.environ["SERPAPI_API_KEY"] = "8518acb926dba80598fe2068390d4608b32b1ebd6ea61faca6a9818d6e72a387"
   os.environ["http_proxy"] = "http://127.0.0.1:10809"
   os.environ["https_proxy"] = "http://127.0.0.1:10809"
@@ -21,9 +21,9 @@ def main():
   st.header("海南审图系统专属知识库💬")
 
   # Specify the directory you want to use
-  directory = "D:\\Downloads"
+  #directory = "D:\\Downloads"
   #directory = "/app/Downloads"
-
+  directory = "C://soft//hainan//files"
   # Get all PDF files in the directory
   pdf_files = glob.glob(os.path.join(directory, "*.pdf"))
   text = ""
